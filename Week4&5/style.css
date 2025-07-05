@@ -1,0 +1,45 @@
+table{
+    font: normal 1.2em Arial, Helvetica, sans-serif; /* Smaller font */
+    width: 320px; /* Set a fixed, smaller width */
+    margin: 20px auto; /* Center and add spacing */
+}
+tr{
+    height: 48px;
+    background-color: palevioletred;
+}
+
+td{
+    width: 80px;
+    border: 4px solid palevioletred;
+}
+
+#inputBox{
+    background-color: #f0f0f0; /* Light background for input box */
+    text-align: right;
+    width: 100%;
+    font-size: 2em;
+    color: black;
+    border: 0px;
+    border-radius: 2em; /* makes the input box oval */
+    padding: 6px; /* adds padding for better appearance */
+    box-sizing: border-box; /* ensures padding is included in width */
+}
+.digitButton{
+    background-color: palevioletred;
+    border-radius: 2em; /* makes the input box oval */
+    padding: 0.5em 1.5em; /* adds padding for better appearance */
+    box-sizing: border-box; /* ensures padding is included in width */
+}
+.operatorButton{
+    background-color: #ff69b4;
+    border-radius: 2em; /* makes the input box oval */
+    padding: 0.5em 1.5em; /* adds padding for better appearance */
+    box-sizing: border-box; /* ensures padding is included in width */
+}
+.ACButton{
+    background-color: #db7093;
+    color: white;
+    border-radius: 2em; /* makes the input box oval */
+    padding: 0.5em 1.5em; /* adds padding for better appearance */
+    box-sizing: border-box; /* ensures padding is included in width */
+}
